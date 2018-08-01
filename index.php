@@ -1,3 +1,9 @@
+<?php
+// Déclaration de la fonction qui renvoie true
+ function bool() {
+  return true;
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -6,12 +12,7 @@
   </head>
   <body>
     <p>
-      <?php
-        function bool() {
-          return true;
-        }
-        echo bool();
-      ?>
+      <?= bool(); // Ecrit le retour de la fonction ?>
     </p>
   </body>
 </html>
